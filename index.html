@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="script.js"></script>
+    <title>MGT</title>
+</head>
+<body>
+  <!-----HEADER---->  
+  <div class="header">
+     <button style="float: left;" onclick="toggleDropdown('dropdownsidebar')"><i style="color: #FFFF; margin-top: 10px; float: left; font-size:30px;" class='bx bx-menu'></i></button>
+   <span class="logo">  <a href="">School Management system</a></span>
+           <button style="float: right;" onclick="toggleDropdown('dropdownlogout')"><i style="color: #FFFF; margin-top: 10px; font-size:30px;" class='bx bx-menu'></i></button>
+  <div class="logout" id="dropdownlogout">
+     <a href="">Log Out</a>
+  </div>
+
+  </div>
+  <!-----sidebar---->
+  <div class="sidebar" id="dropdownsidebar">
+    <div class="nav">
+        <ul class="nav-item">
+            <li class="nav-link">
+           <i class='bx bxs-dashboard'></i>
+                <a href="#Home">Dashboard</a>
+            </li>
+            <li class="nav-link">
+                <i class='bx bx-male-female'></i>
+                <a href="#Home">Student</a>
+         <button  onclick="toggleDropdown('dropdownMenu')"><i style="color: black; margin-left: 26px; font-size: 20px;" class='bx bx-chevron-right'></i></button>
+                <ul class="nav-item2" id="dropdownMenu">    
+                    <li  class="nav-link2"><i class='bx bx-user-plus'></i>Manage Student</li>
+                </ul>
+            </li>
+            <li class="nav-link">
+                  <i class='bx  bx-user'  ></i>  
+                <a href="#Home">Teachers</a>
+                <button  onclick="toggleDropdown('dropdownMenu2')"><i style="color: black; margin-left: 20px; font-size: 20px;" class='bx bx-chevron-right'></i></button>
+                <ul class="nav-item2" id="dropdownMenu2">    
+                    <li  class="nav-link2"><i class='bx bx-user-plus'></i>Manage Teachers</li>
+                </ul>
+            </li>
+            <li class="nav-link">
+                <i class='bx bx-money-withdraw'></i>
+                <a href="#Home">Finance</a>
+            </li>
+            <li class="nav-link">
+                <i class='bx bxs-user-check'></i>
+                <a href="#Home">Attendance</a>
+            </li>
+            <li class="nav-link">
+                <i class='bx bx-book-reader'></i>
+                <a href="#Home">Exam</a>
+            </li>
+            <li class="nav-link">
+                <i class='bx bx-award'></i>
+                <a href="#Home">Certificate</a>
+            </li>
+            <li class="nav-link">
+               <i class='bx bxs-message-rounded-dots'></i>
+                <a href="#Home">Message</a>
+            </li>
+        </ul>
+    </div>
+  </div>
+  <!----content---->
+<div class="content" id="toglecontent">
+   <div class="container">
+    <div class="row">
+        <div class="col">
+             <i class='bx bx-male-female'></i>
+       <p>Student</p>
+        <span >300+</span>
+        </div>
+    </div>
+    <div class="row">
+          <div class="col">
+         <i class='bx  bx-user'  ></i> 
+        <p>Teachers</p>
+        <span >30</span>
+        </div>
+    </div>
+    <div class="row">
+          <div class="col">
+        <i class='bx bx-book-reader'></i>
+        <p>Exam</p>
+        </div>
+    </div>
+      <div class="row">
+          <div class="col">
+        <i class='bx bx-book-reader'></i>
+        <p>Exam</p>
+        </div>
+    </div>
+      <div class="row">
+          <div class="col">
+        <i class='bx bx-book-reader'></i>
+        <p>Exam</p>
+        </div>
+    </div>
+      <div class="row">
+          <div class="col">
+        <i class='bx bx-book-reader'></i>
+        <p>Exam</p>
+        </div>
+    </div>
+
+   </div>
+ </div>
+  <!----footer--->
+  <div class="footer" >
+<span> &copy;  omar Sheikh </span>
+  </div>
+  <div class="omar">
+    hghfbmbfmefjerfjehfjehf
+  </div>
+</body>
+</html>
