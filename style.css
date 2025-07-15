@@ -191,6 +191,8 @@ h6{
 }
 
 @media (max-width: 799px){
+    .sidebar{
+     background-color: aqua;}
 .content{
     width: 100%;
     margin-left: 0;
